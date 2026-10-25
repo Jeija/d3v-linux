@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "default_version": "1.7",
+  "releases": [
+    {
+      "version": "1.7",
+      "protocol": "d3v-hid-v1",
+      "validation": "hardware-tested",
+      "source_page": "https://downloads.adam-audio.com/adam-audio/desktop/d3v",
+      "notes": "Adds an auto-standby toggle and improves tweeter behavior at low levels. The official release uses an RC4 filename.",
+      "archive": {
+        "url": "https://fael-downloads-prod.focusrite.com/customer/prod/downloads/adam-audio-d3v-desktop-monitor-firmware-update-windows.zip",
+        "size": 3364874,
+        "sha256": "4641af5460b07d4eaec6ab93b41df7e95cf8dfe88b2345e2735be392fde24343"
+      },
+      "installer": {
+        "member": "D3V Updater_1.0.0_x64-setup.exe",
+        "size": 3382576,
+        "sha256": "e98a7c2b24bb87b3038f6c886efc226916b06d0e71198312870a16f05b27ea13"
+      },
+      "firmware": {
+        "member": "resources/firmware/D3V_MCU+DSP_V1_7_RC4.bin",
+        "size": 22124,
+        "sha256": "f2486dae4ef2399db12fcb255eeab227e1533bf1eed96c9a2eaa3ef822388a38"
+      }
+    }
+  ]
+}

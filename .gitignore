@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+*.bin
+*.exe
+*.dmg
+*.zip
+*.jsonl
